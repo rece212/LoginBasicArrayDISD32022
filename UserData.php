@@ -5,7 +5,6 @@
         $ud->setValues();
         $ArrayTest=$ud->getArray();
     }
-
 class UserData
 {
     /**

@@ -1,0 +1,73 @@
+body{
+
+    background: midnightblue;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+*{
+
+    font-family: cursive;
+
+    box-sizing: padding-box;
+
+}
+
+
+
+form{
+
+    width: 500px;
+
+    border: slategrey;
+
+    padding: 50px;
+
+    background: grey;
+
+    border-radius: 20px;
+
+
+
+
+
+}
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+
+
+}
+
+input{
+
+    display: block;
+
+    border: 2px solid #ccc;
+
+    width: 45%;
+
+    padding: 10px 10px;
+
+    margin: 10px 0;
+
+    box-sizing: border-box;
+
+
+
+
+
+}

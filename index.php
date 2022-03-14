@@ -1,7 +1,7 @@
 <?php
     session_start();
     include_once 'UserData.php';
-
+    print_r($_SESSION['Array']);
     /*$UserData = array(
         array("john@gmail.com","Saint"),
         array("PastorJohn@pastor.net","John"),
@@ -68,7 +68,7 @@
     {
         $Logged = false;
 
-        $Array=$GLOBALS['ArrayTest'];
+        $Array=$_SESSION['Array'];
         for ($x =0;$x <count($Array);$x++)
         {
             if((strcmp($Array[$x][0],md5($EmailAddress))==0)&&(strcmp($Array[$x][1],md5($PasswordEntered))==0))

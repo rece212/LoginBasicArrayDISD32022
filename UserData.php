@@ -1,9 +1,11 @@
 <?php
-    if (isset($UserData)==false)
+    if ((isset($UserData)==0)&&(isset($_SESSION['Array'])==0))
     {
         $ud = new UserData();
         $ud->setValues();
         $ArrayTest=$ud->getArray();
+
+        $_SESSION['Array']=$ArrayTest;
     }
 class UserData
 {

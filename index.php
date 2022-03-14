@@ -54,6 +54,7 @@
     ?>
     <!--Login Button-->
     <button name="login" type="Submit">Login</button>
+    <a href="register.php" >Register page</a>
 
 </form>
 
